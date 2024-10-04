@@ -102,7 +102,7 @@ class TabiZoo:
                     base.log(f"{base.red}오류: {base.white}{e}")
 
             print()
-            wait_time = 60 * 60
+            wait_time = 30 * 60
             base.log(f"{base.yellow}{int(wait_time/60)}분 동안 대기! 스크립트 작성자: https://t.me/kjkresearch")
             time.sleep(wait_time)
 
